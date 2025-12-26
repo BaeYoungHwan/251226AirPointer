@@ -21,7 +21,7 @@ class GestureDetector:
 
     def is_left_click(self, hand_landmarks):
         """
-        엄지(4)와 검지(8)가 가까우면 좌클릭
+        중지(12)와 검지(8)가 가까우면 좌클릭
         """
         index = hand_landmarks.landmark[8]
         center = hand_landmarks.landmark[12]
