@@ -11,11 +11,9 @@ Python으로 OS 마우스 이벤트를 제어합니다.
 
 ## 🎥 Demo Video
 
-
-<video width="320" height="240" controls>
-<source src="docs/0102 airproject/0102 airpointer.mp4"  type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<div align="center">
+<img src="docs/0102 airproject/0102 airpointer.gif" width="70%">
+</div>
 
 
 > 영상에는 손 이동에 따른 커서 이동, 클릭 제스처, 스크롤 제스처 동작이 포함되어 있습니다.
