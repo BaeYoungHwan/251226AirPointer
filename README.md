@@ -1,4 +1,4 @@
-# 🖐 AirPointer  
+# 🖐 AirPointerProject
 **MediaPipe 기반 손 제스처 가상 마우스**
 
 웹캠 하나로 손을 인식해  
@@ -9,13 +9,13 @@ Python으로 OS 마우스 이벤트를 제어합니다.
 
 ---
 
-## 🎥 Demo Video
+## 🎥Video
 
 <div align="center">
 <img src="docs/0102 airproject/0102 airpointer.gif" width="70%">
 </div>
 
-
+<br/>
 > 영상에는 손 이동에 따른 커서 이동, 클릭 제스처, 스크롤 제스처 동작이 포함되어 있습니다.
 
 ---
