@@ -56,3 +56,17 @@ class MouseController:
         좌클릭 실행
         """
         pyautogui.click()
+
+
+    def down_scroll(self):
+        """
+        밑으로 내리기
+        """
+        pyautogui.scroll(-120)
+
+    def up_scroll(self):
+        """
+        위로 올리기
+        """
+
+        pyautogui.scroll(120)

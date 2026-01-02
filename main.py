@@ -80,7 +80,7 @@ def main():
                 cv2.circle(
                     frame,
                     (x, y),
-                    10,
+                    5,
                     (0, 255, 0),
                     -1
                 )
@@ -95,6 +95,15 @@ def main():
                 # -------------------------
                 if gesture.is_left_click(hand_landmarks):
                     mouse.left_click()
+                
+                
+                fingerStatus = gesture.get_finger_status(hand=hand_landmarks)
+                fingerGesture = gesture.recognize_gesture(fingers_status = fingerStatus)
+                
+                if (fingerGesture == 'standby'):
+                    mouse.up_scroll()
+                elif (fingerGesture == 'fist'):
+                    mouse.down_scroll()
 
         # -------------------------
         # 화면 출력
