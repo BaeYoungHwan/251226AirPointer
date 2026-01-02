@@ -12,7 +12,7 @@ Python으로 OS 마우스 이벤트를 제어합니다.
 ## 🎥 Demo Video
 
 
-<video controls width="720">
+<video width="320" height="240" controls>
 <source src="docs/0102 airproject/0102 airpointer.mp4"  type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -38,18 +38,18 @@ Your browser does not support the video tag.
 ## 📁 Project Structure
 
 AirPointer/<br/>
-├─ main.py<br/> # 프로그램 실행 진입점
+├─ main.py # 프로그램 실행 진입점<br/>
 ├─ src/<br/>
 │ ├─ camera/<br/>
-│ │ └─ webcam.py<br/> # 웹캠 프레임 처리
+│ │ └─ webcam.py # 웹캠 프레임 처리 <br/>
 │ ├─ hand/<br/>
-│ │ └─ detector.py<br/> # MediaPipe 손 인식
+│ │ └─ detector.py # MediaPipe 손 인식 <br/>
 │ ├─ mouse/<br/>
-│ │ ├─ controller.py<br/> # 마우스 이동 / 클릭 / 스크롤
-│ │ └─ gesture.py<br/> # 제스처 판별 로직
-│ └─ config.py<br/> # 공통 설정값
+│ │ ├─ controller.py # 마우스 이동 / 클릭 / 스크롤 <br/>
+│ │ └─ gesture.py # 제스처 판별 로직 <br/> 
+│ └─ config.py # 공통 설정값 <br/>
 └─ docs/<br/>
-└─ 0102 airproject<br/> # 시연 영상
+└─ 0102 airproject # 시연 영상 <br/>
 
 
 ---
